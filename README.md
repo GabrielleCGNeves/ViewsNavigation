@@ -1,14 +1,14 @@
 <h1 align="center">📱Views Navigation</h1>
 
 ## 📝 Índice
-- [🧐 Sobre](#sobre)
-  - [⚠ Desafios Enfrentados](#desafios-enfrentados)
-  - [✨ Funcionalidades do Aplicativo](#funcionalidades-do-aplicativo)
-- [🧐 Ferramentas Utilizadas](#ferramentas-utilizadas)
-- [✍️ Autores](#autores)
+- [🧐 Sobre](#-sobre)
+  - [⚠ Desafios Enfrentados](#-desafios-enfrentados)
+  - [✨ Funcionalidades do Aplicativo](#-funcionalidades-do-aplicativo)
+- [🧐 Ferramentas Utilizadas](#-ferramentas-utilizadas)
+- [✍️ Autores](#-autores)
 
 
-<h2 name=#sobre align=center>🧐 Sobre</h2>
+<h2 align=center>🧐 Sobre</h2>
 
 Este aplicativo foi criado como parte da aula de Programação Mobile, sob a orientação do professor **Paulo**. 
 
@@ -21,11 +21,11 @@ No decorrer do desenvolvimento, o conceito foi **adaptado**: ao invés da altern
 - Manipulação de eventos
 - Personalização de interface
 
-<h3 name=#desafios-enfrentados align=center>⚠ Desafios Enfrentados</h3>
+<h3 align=center>⚠ Desafios Enfrentados</h3>
 
 Durante o desenvolvimento, alguns desafios notáveis incluíram a transferência eficiente de dados entre as várias views, assegurando uma experiência de usuário coesa e intuitiva. Para manter o estado das imagens dos personagens ao navegar entre diferentes partes do aplicativo, foi empregado o uso do `SharedPreferences`. Esta ferramenta provou ser essencial para a persistência de dados locais, possibilitando que o estado do app fosse preservado entre sessões.
 
-<h3 name=#funcionalidades-do-aplicativo align=center>✨ Funcionalidades do Aplicativo</h3>
+<h3 align=center>✨ Funcionalidades do Aplicativo</h3>
 
 Com base na análise do código fornecido anteriormente, o aplicativo possui as seguintes funcionalidades:
 
@@ -37,12 +37,12 @@ Com base na análise do código fornecido anteriormente, o aplicativo possui as 
 
 Este aplicativo serve não apenas como um instrumento de aprendizado para os conceitos mencionados, mas também como um exemplo prático da implementação de técnicas de programação Android em um projeto real.
 
-<h2 name=#ferramentas-utilizadas align=center>⛏️ Ferramentas Utilizadas</h2>
+<h2 align=center>⛏️ Ferramentas Utilizadas</h2>
 <div align=center>
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=androidstudio,java,github,git"></a>
 </div>
 
-<h2 name=#autores align=center>✍️ Autores</h2>
+<h2 align=center>✍️ Autores</h2>
 
 - [GabrielleCGNeves](https://github.com/GabrielleCGNeves)
 - [ericksantos12](https://github.com/ericksantos12)

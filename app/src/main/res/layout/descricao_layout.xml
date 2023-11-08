@@ -7,4 +7,39 @@
     android:orientation="vertical"
     tools:context=".DescricaoActivity">
 
+    <TextView
+        android:id="@+id/idRetornar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/personagemImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/daisy1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+        <Button
+            android:id="@+id/idVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_weight="1"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/idAvancar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avançar"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
 </LinearLayout>

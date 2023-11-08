@@ -2,6 +2,7 @@ package com.noobwire.viewsnavigation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,12 +27,27 @@ public class MenuActivity extends AppCompatActivity {
         btnDaisy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this, DescricaoActivity.class);
-                intent.putExtra("daisy", "daisy");
-
-                startActivity(intent);
+                intentWithCharData("daisy", DescricaoActivity.class);
             }
         });
 
+        btnLuigi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intentWithCharData("luigi", DescricaoActivity.class);
+            }
+        });
+
+        btnRosalina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {intentWithCharData("rosalina", DescricaoActivity.class); }
+        });
     }
+
+    private void intentWithCharData(String character, Class<? extends Activity> ActivityToOpen){
+        Intent intent = new Intent(MenuActivity.this, ActivityToOpen);
+        intent.putExtra("character", character);
+
+        startActivity(intent);
+    };
 }

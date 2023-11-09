@@ -7,7 +7,8 @@
     android:background="@drawable/parede"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity"
+    android:id="@+id/idMenuLayout">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,11 +16,13 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/idMudarTema"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/darkmode" />
 
         <TextView
+            android:id="@+id/idFechar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"

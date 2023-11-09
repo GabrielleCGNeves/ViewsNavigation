@@ -3,9 +3,10 @@
 ## 📝 Índice
 - [🧐 Sobre](#-sobre)
   - [⚠ Desafios Enfrentados](#-desafios-enfrentados)
+    - [📖 Entendendo o SharedPreferences](#-entendendo-o-sharedpreferences)
   - [✨ Funcionalidades do Aplicativo](#-funcionalidades-do-aplicativo)
-- [🧐 Ferramentas Utilizadas](#-ferramentas-utilizadas)
-- [✍️ Autores](#-autores)
+- [🧐 Ferramentas Utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
+- [✍️ Autores](#%EF%B8%8F-autores)
 
 
 <h2 align=center>🧐 Sobre</h2>
@@ -24,6 +25,30 @@ No decorrer do desenvolvimento, o conceito foi **adaptado**: ao invés da altern
 <h3 align=center>⚠ Desafios Enfrentados</h3>
 
 Durante o desenvolvimento, alguns desafios notáveis incluíram a transferência eficiente de dados entre as várias views, assegurando uma experiência de usuário coesa e intuitiva. Para manter o estado das imagens dos personagens ao navegar entre diferentes partes do aplicativo, foi empregado o uso do `SharedPreferences`. Esta ferramenta provou ser essencial para a persistência de dados locais, possibilitando que o estado do app fosse preservado entre sessões.
+
+<h4 align=center>📖 Entendendo o SharedPreferences</h4>
+
+O `SharedPreferences` é um mecanismo no Android que permite salvar e recuperar dados primitivos em pares de chave-valor, proporcionando uma maneira simples de armazenar dados leves ou estados de preferência do usuário entre sessões do aplicativo.
+
+No código fornecido, o `SharedPreferences` é utilizado para persistir os índices das imagens de personagens visualizadas, de modo que o estado de visualização seja mantido mesmo após o fechamento e reabertura do aplicativo.
+
+Aqui está um exemplo de como os dados são salvos:
+```java
+SharedPreferences prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+SharedPreferences.Editor editor = prefs.edit();
+editor.putInt("counterLuigi", index); // Salvando o índice de Luigi
+// ...
+editor.apply(); // Aplica as mudanças ao editor de preferências.
+```
+
+E aqui está como os dados são recuperados na recriação da atividade:
+```java
+SharedPreferences prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+universalCounter[0] = prefs.getInt("counterLuigi", 0); // Recupera o índice de Luigi
+// ...
+```
+
+Ao invocar `apply()`, as mudanças são salvas de forma assíncrona, o que é mais eficiente e evita que a interface do usuário seja bloqueada.
 
 <h3 align=center>✨ Funcionalidades do Aplicativo</h3>
 

@@ -1,13 +1,17 @@
 <h1 align="center">📱Views Navigation</h1>
 
 ## 📝 Índice
+- [✍️ Autores](#%EF%B8%8F-autores)
 - [🧐 Sobre](#-sobre)
   - [⚠ Desafios Enfrentados](#-desafios-enfrentados)
     - [📖 Entendendo o SharedPreferences](#-entendendo-o-sharedpreferences)
   - [✨ Funcionalidades do Aplicativo](#-funcionalidades-do-aplicativo)
 - [🧐 Ferramentas Utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
-- [✍️ Autores](#%EF%B8%8F-autores)
 
+<h2 align=center>✍️ Autores</h2>
+
+- [Gabrielle Carvalho](https://github.com/GabrielleCGNeves)
+- [Erick Santos Sousa](https://github.com/ericksantos12)
 
 <h2 align=center>🧐 Sobre</h2>
 
@@ -66,10 +70,4 @@ Este aplicativo serve não apenas como um instrumento de aprendizado para os con
 <div align=center>
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=androidstudio,java,github,git"></a>
 </div>
-
-<h2 align=center>✍️ Autores</h2>
-
-- [GabrielleCGNeves](https://github.com/GabrielleCGNeves)
-- [ericksantos12](https://github.com/ericksantos12)
-
 

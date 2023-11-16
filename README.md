@@ -55,6 +55,10 @@ universalCounter[0] = prefs.getInt("counterLuigi", 0); // Recupera o índice de 
 Ao invocar `apply()`, as mudanças são salvas de forma assíncrona, o que é mais eficiente e evita que a interface do usuário seja bloqueada.
 
 <h3 align=center>✨ Funcionalidades do Aplicativo</h3>
+<div align=center>
+  <img src="https://files.catbox.moe/5mhray.png" height="400"> 
+  <img src="https://files.catbox.moe/ncmuhw.png" height="400"> 
+</div>
 
 Com base na análise do código fornecido anteriormente, o aplicativo possui as seguintes funcionalidades:
 

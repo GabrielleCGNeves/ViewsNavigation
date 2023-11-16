@@ -10,8 +10,14 @@
 
 <h2 align=center>✍️ Autores</h2>
 
-- [Gabrielle Carvalho](https://github.com/GabrielleCGNeves)
-- [Erick Santos Sousa](https://github.com/ericksantos12)
+<table align=center>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GabrielleCGNeves"><img src="https://avatars.githubusercontent.com/u/88461057?v=4" width="100px;" alt="Gabrielle Carvalho"/><br /><sub><b>Gabrielle Carvalho</b></sub></a><br />💻🎨</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ericksantos12"><img src="https://avatars.githubusercontent.com/u/16109127?v=4" width="100px;" alt="Erick Santos"/><br /><sub><b>Erick Santos</b></sub></a><br />💻📖</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 align=center>🧐 Sobre</h2>
 

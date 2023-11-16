@@ -6,7 +6,7 @@
   - [⚠ Desafios Enfrentados](#-desafios-enfrentados)
     - [📖 Entendendo o SharedPreferences](#-entendendo-o-sharedpreferences)
   - [✨ Funcionalidades do Aplicativo](#-funcionalidades-do-aplicativo)
-- [🧐 Ferramentas Utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
+- [⛏️ Ferramentas Utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
 
 <h2 align=center>✍️ Autores</h2>
 
